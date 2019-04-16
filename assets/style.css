@@ -1,0 +1,30 @@
+. {
+  background-color: green;
+}
+
+.jumbotron {
+    position: relative;
+    z-index:-101;
+    box-sizing: border-box;
+    display: block;
+    background-size: auto;
+    color: white;
+
+  }
+
+  
+  #main-video { 
+    position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      overflow: hidden;
+      z-index: -100;
+      width: 100%;
+  }
+  .card-img {
+    text-align: center;
+    width: 50%;
+
+  }

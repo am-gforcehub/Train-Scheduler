@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alicia Garcia - Train-Scheduler</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/reset.css">
+    </link>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    </link>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+    <script src="javascript/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class=" container">
+        <div class="jumbotron text-center">
+            <video id="main-video" loop="true" autoplay="true" muted="true" preload="true">
+                <source src="assets/images/RealisticEarthSpinninginSpaceVidevo.mov">
+            </video>
+            <img id="main-image">
+            <source src="assets/images/train-png-13696.png"> </img>
+            <h1 class="display-1">Worldwide Travel</h1>
+            <h1 class="display-5">Train Schedule Management System</h1>
+            <p class="lead">A Comprehensive Directory of Current, Past and Future Train Schedules</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="assets/images/train-png-13696.png" class="card-img" alt="train">
+            <div class="card-img-overlay">
+                <h5 class="card-title">Worldwide Travel</h5>
+                <p class="card-text">Train Schedule Management System</p>
+
+            </div>
+        </div>
+        <!-- Sign-Up Card-->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    T.S.M.S.
+                </div>
+
+                <div class="card-body">
+
+                    <div class="container">
+                        <div class="panel panel-success">
+                            <div class="panel-heading">
+                                <h3>Current Train Schedule</h3>
+                            </div>
+                            <div class="panel-body">
+
+                                <table class="table text-center" id="displayed-date">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" id="train-name">Train Name</th>
+                                            <th scope="col" id="destination">Destination</th>
+                                            <th scope="col" id="frequency">Frequency</th>
+                                            <th scope="col" id="next-arrival">Next Arrival</th>
+                                            <th scope="col" id="minutes-away">Minutes Away</th>
+                                        </tr>
+                                    </thead>
+
+                                    <!-- Train info goes here! -->
+                                    <tbody id="add-row">
+                                    </tbody>
+
+                                </table>
+                            </div>
+
+
+
+
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <h3>Add Train</h3>
+                                </div>
+
+                                <div class="panel-body">
+
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="formGroupExampleInput">Train Name</label>
+                                            <input type="text" class="form-control" id="name"
+                                                placeholder="Polar Express">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="formGroupExampleInput2">Destination</label>
+                                            <input type="text" class="form-control" id="destination"
+                                                placeholder="South Pole">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="formGroupExampleInput">First Train Time (HH:mm -
+                                                military
+                                                time)</label>
+                                            <input type="time" class="form-control" id="time" placeholder="18:25">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="formGroupExampleInput2">Frequency</label>
+                                            <input type="text" class="form-control" id="frequency" placeholder="30">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary" id="add-train">Submit</button>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+</body>
+
+</html>
