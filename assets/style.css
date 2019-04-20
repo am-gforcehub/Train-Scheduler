@@ -1,37 +1,15 @@
 body {
-  background-image: url("../assets/images/HuGGeENt6kGyixe3hT9tnY-970-80.jpg");
   margin: auto;
-  padding: 5px;
-  color: green;
   
-
-
+  color: grey;
+  
 }
 
 .jumbotron {
-
-    position: relative;
-  
-    /* z-index:-101; */
-    /* box-sizing: border-box;
-    display: block; */
-    background-image: url("../assets/images/HuGGeENt6kGyixe3hT9tnY-970-80.jpg");
     background-color: black;
-
-
 
   }
 
-  
-  /* #main-video { 
-    position: fixed;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      overflow: hidden;
-      z-index: -100;
-      width: 100%; */
       
   .train-img {
     
@@ -42,22 +20,3 @@ body {
     
   }
 
-  .display-5, .lead {
-    text-align: center;
-    /* margin: auto; */
-  }
-
-.centered {
-position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-color: white;
-
-}
-
-.form {
-  background-color: black;
-  text-align: center;
-  /* margin: auto; */
-}

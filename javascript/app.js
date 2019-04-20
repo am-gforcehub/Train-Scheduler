@@ -71,6 +71,9 @@ $(document).ready(function () {
             "</td><td>" + newFreq +
             "</td><td>" + moment(nextTrain).format("hh:mm") +
             "</td><td>" + tMinutesTillTrain + "</td></tr>");
+        // "</td> <button class='arrival btn btn-danger btn-xs' data-key='" + key + "'>X</button><td> + "</td ></tr > ");
+
+
     },
 
         // Handle the errors
