@@ -1,22 +1,53 @@
+@font-face {
+  font-family: "train";
+  src:url("../assets/images/California\ Zephyr.ttf") format("truetype");
+}
 body {
   margin: auto;
-  
-  color: grey;
+  background-image: url("../assets/images/stripes-light.png");
+  color: black;
+  justify-content: center;
+  font-family: "train";
+  font-size: 20px;
   
 }
-
+img {
+  width: 400px;
+  background-color: #ccd8ff;
+  padding:5px;
+}
 .jumbotron {
-    background-color: black;
+    background-image: url("../assets/images/stripes-light.png");
+
 
   }
+.card-header {
+  background-color: #ccd8ff;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+}
 
+.card {
+  font-display: bold;
+  color: black;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+}
+h1 , .lead {
+  padding: 10px;
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 75px;
+}
+h3 {
+  padding: 10px;
+  font-size: 30px;
+}
       
-  .train-img {
-    
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-    
-  }
-
+ 
