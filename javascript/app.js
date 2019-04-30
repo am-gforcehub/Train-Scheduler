@@ -10,6 +10,7 @@ $(document).ready(function () {
     };
     firebase.initializeApp(config);
 
+    //variable to reference the database
     var database = firebase.database();
 
     //on click event

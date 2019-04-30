@@ -1,13 +1,13 @@
-@font-face {
-  font-family: "train";
-  src:url("../assets/images/California\ Zephyr.ttf") format("truetype");
-}
+/* @font-face {
+  font-family: "tropical";
+  src:url("../assets/images/TropicalAsianDEMO-Regular.ttf") format("truetype");
+} */
 body {
   margin: auto;
   background-image: url("../assets/images/stripes-light.png");
   color: black;
   justify-content: center;
-  font-family: "train";
+  /* font-family: "tropical"; */
   font-size: 20px;
   
 }
