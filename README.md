@@ -1,4 +1,4 @@
-# <img src="./assets/images/trai-png-13696.png" width="200"> | TWENTY4MS |
+# <img src="./assets/images/train-png-13696.png" width="200"> | TWENTY4MS |
 
 ---
 
@@ -23,9 +23,9 @@ Direct link to TWENTY4MS [here](https://am-gforcehub.github.io/Train-Scheduler/)
 
 Direct link to TWENTY4MS requirements [here](https://docs.google.com/document/d/1QqIZIlBZ3F7HUfKkFMt2OoeiS53pQaIujEVaUaAAmfw/edit?usp=sharing)
 
-Here is a screen-shot of the Treasure Collector Game home page:
+Here is a screen-shot of the TWENTY4MS home page:
 
-## ![View of Home Page](./assests/images/trainscheduler.png)
+## ![View of Home Page](./assets/images/trainscheduler.png)
 
 <!-- - **Demo**
   See a full demo on the functionality of the app [here!]() -->
